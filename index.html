@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Mi Primer Website</title>
+        
+    </head>
+    <body>
+
+        <header class="container-nav">
+            <nav class="navbar" role="navigation">
+                <a href="index.html" class="brand">Mi página web</a>
+                <ul class="nav-links">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="contact.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="button-menu-toggle">Menu</button>
+        </header>
+
+        <main>  <!-- contenido principal -->
+            <div class="container">
+                <h1>Bienvenidos a mi primer Website</h1>
+                <div class="row">
+                    <section>
+                        <div class="column">
+                            <h2>Presentación</h2>
+                            <p>Soy Yamila, ¡y esta es mi primera página web!</p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="column">
+                            <h2>Lo que se viene...</h2>
+                            <p>Estoy aprendiendo desarrollo web para crear sitios web visualmente atrapantes y funcionales.</p>
+                            <p>A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript. Estos lenguajes me ayudarán a crear una base sólida en el desarrollo web front-end.</p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/D2-1TO1ZS1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </main>
+
+        <footer> <!-- contenido pie de pagina -->
+            <p>
+                Gracias por visitarnos! - Encuentranos también Aquí
+                <button onclick="showAlert()" aria-label="Haz click en mí" >¡Haz click en mí!</button>
+            </p>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
+
