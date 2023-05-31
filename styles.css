@@ -116,6 +116,10 @@ img {
     height: 200px;
 }
 
+.greeting {
+    text-align: center;
+}
+
  /* barra de navegación adaptable - media query  */
 
 @media (max-width: 768px) {
