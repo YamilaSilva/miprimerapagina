@@ -120,6 +120,33 @@ img {
     text-align: center;
 }
 
+.services {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.service {
+    text-align: center;
+    margin: 20px;
+    width: 30%;
+    display: inline-block;
+    
+ }
+  
+.service img {
+    width: 200px;
+    height: 150px;
+    border-radius: 45%;
+}
+  
+.service h3 {
+    margin-top: 10px;
+}
+  
+.service p {
+    text-align: center;
+}
+
  /* barra de navegación adaptable - media query  */
 
 @media (max-width: 768px) {
